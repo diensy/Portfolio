@@ -47,15 +47,15 @@ import {
     },
     {
       title: "React Developer",
-      icon: mobile,
+      icon: reactjs,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Android Developer",
+      icon: mobile,
     },
   ];
   
