@@ -1,7 +1,8 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../style";
 import Computers from "../components/canvas/Computers";
+import Loader from "./Loader";
 
 const Hero = () => {
   return (
@@ -18,26 +19,28 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Dinesh</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I build responsive and interactive web interfaces.
+            I build responsive and interactive web interfaces.
           </p>
         </div>
       </div>
       {/* Desktop Image */}
-      <Computers />
+      <Suspense fallback={<Loader />}>
+        <Computers />
+      </Suspense>
       {/* Scroling Element */}
       <div className="absolute flex justify-center items-center xs:bottom-[-10px] bottom-32 w-full">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev 
-            animate={{
-              y:[0,24,0]
-            }}
-            transition={{
-              duration:1.5,
-              repeat:Infinity,
-              repeatType:'loop'
-            }}
-            className="bg-secondary w-3 h-3 rounded-full mb-1"
+            <motion.dev
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className="bg-secondary w-3 h-3 rounded-full mb-1"
             />
           </div>
         </a>
