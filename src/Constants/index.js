@@ -24,8 +24,9 @@ import {
     tripguide,
     threejs,
     rixosys,
-    IBM
-    
+    IBM,
+    graphql,
+    Material
   } from "../assets";
   export const navLinks = [
     {
@@ -75,8 +76,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "GraphQl",
+      icon: graphql,
     },
     {
       name: "React JS",
@@ -99,21 +100,21 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Material UI",
+      icon: Material,
     },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [

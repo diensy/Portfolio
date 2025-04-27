@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import IBM from "./company/IBM.webp"
 import css from "./tech/css.png";
+import graphql from "./tech/graphql.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -20,6 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import Material from "./tech/Material.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -36,6 +38,7 @@ export {
   creator,
   mobile,
   web,
+  graphql,
   github,
   menu,
   close,
@@ -60,5 +63,6 @@ export {
   jobit,
   tripguide,
   rixosys,
-  IBM
+  IBM,
+  Material
 };
