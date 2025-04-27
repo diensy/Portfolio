@@ -33,7 +33,7 @@ const ComputetrsCanvas = () => {
 
   useEffect(()=>{
     const MediaQuery = window.matchMedia(
-      '(max-width:500px)'
+      '(max-width:760px)'
     );
     setMobile(MediaQuery.matches);
     const handleMediaQueryChanges = (event)=>{

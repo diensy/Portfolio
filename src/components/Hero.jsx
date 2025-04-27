@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Desktop Image */}
-      {/* <Computers /> */}
+      <Computers />
       {/* Scroling Element */}
       <div className="absolute flex justify-center items-center xs:bottom-[-10px] bottom-32 w-full">
         <a href="#about">
